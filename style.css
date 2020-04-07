@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+}
+.container{
+     display:grid;
+     /*grid-template-columns: 1fr ;   /* one column*/
+     
+}
+.nav-wrapper{
+    display:flex;
+    justify-content: space-between;  /* giving space*/
+    padding: 38px;
+    background-image: url('logos/shoppinglogo.png');
+}
+.left-side{
+    display:flex;
+} 
+
+/* nav styles */
+
+.nav-wrapper > .left-side >div{
+    margin-right: 20px;
+    font-size:0.9em;
+    text-transform:uppercase;
+}
+.nav-link-wrapper{
+    height:22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;  /* to remove underline */
+    transition: color 0.5s;
+}
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+
+/* image1 styles*/
+
+.portfolio-item-wrapper{
+    background-image: url('images/image5.png');
+    height:1080;
+    width:1920;
+}
+ .portfolio-bgimage1{
+     display: flex;
+     padding: 38px;
+     transition:1s;
+     margin-top: auto;
+ }
+ .portfolio-bgimage1:hover{
+background-color: gray;
+background-image: url('logos/travellogo.png');
+ }
+ .portfolio-bgimage1 .subtitle {
+    transition:1s;
+    color: transparent;
+ }
+.portfolio-bgimage1:hover .subtitle{
+    font-weight: 600;
+    color:black;
+
+}
+/* image 2 styles*/
+.portfolio-bgimage2{
+    display: flex;
+    padding: 38px;
+    transition:1s;
+    margin-top: auto;
+}
+.portfolio-bgimage2:hover{
+background-color: gray;
+background-image: url('logos/celeblogo.png');
+}
+.portfolio-bgimage2 .subtitle {
+   transition:1s;
+   color: transparent;
+}
+.portfolio-bgimage2:hover .subtitle{
+   font-weight: 600;
+   color:black;
+
+}
+/*image 3 styles*/
+
+.portfolio-bgimage3{
+    display: flex;
+    padding: 38px;
+    transition:1s;
+    margin-top: auto;
+}
+.portfolio-bgimage3:hover{
+background-color: gray;
+background-image: url('logos/weddinglogo.png');
+}
+.portfolio-bgimage3 .subtitle {
+   transition:1s;
+   color: transparent;
+}
+.portfolio-bgimage3:hover .subtitle{
+   font-weight: 600;
+   color:black;
+
+}
